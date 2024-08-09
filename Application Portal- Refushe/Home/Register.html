@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+
+    <title>Online Applications Portal - Register</title>
+
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/inputShowPwd.css" rel="stylesheet">
+   
+</head>
+
+<body class="sticky-header">
+    <section class="bg-login">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="wrapper-page">
+                        <div class="account-pages">
+                            <div class="card m-b-30 mt-4">
+                                <div class="card-body row">
+
+                                    <div class="col-lg-6 col-sm-12 ">
+
+                                        <img src="img1.png" class="layout-img" alt="Refushe Kenya">
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        
+<div class="card-title text-center">
+    <img src="logo.png" width="128px" alt="" class="">
+    <h5 class="mt-3 client-text"><b>Register</b></h5>
+</div>
+<form method="post" class="form-horizontal form-material" action="Register.html">
+    <input type="hidden" value="Applicant" data-val="true" data-val-required="The Role field is required." id="Role" name="Role" />
+    
+    <div class="form-group">
+        <div class="col-lg-12">
+            <input class="form-control form-control-line" type="text" placeholder="Surname" required="required" id="SurName" name="SurName" value="">
+            <span class="mt-1 field-valid field-validation-valid" data-valmsg-for="SurName" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-lg-12">
+            <input class="form-control form-control-line" type="text" placeholder="Other names" required="required" id="OtherNames" name="OtherNames" value="">
+            <span class="mt-1 field-valid field-validation-valid" data-valmsg-for="OtherNames" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-lg-12">
+            <input class="form-control form-control-line" type="email" placeholder="Email address" required="required" data-val="true" data-val-email="The Email Address field is not a valid e-mail address." data-val-required="The Email Address field is required." id="Email" name="Email" value="">
+            <span class="mt-1 field-valid field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+
+
+
+            <div class="form-group ">
+            <div class="col-lg-12">
+                <select class="form-control form-control-line iddocumentSelect" required="required" id="IdDocumentName" name="IdDocumentName">
+                    <option value=""disabled selected>Select Identification document</option>
+                        <option value="Birth Certificate">Birth Certificate</option>
+                        <option value="National Id">National Id</option>
+                        <option value="National Id">Alien Card</option>
+                        
+                </select>
+                <span class="mt-1 field-valid field-validation-valid" data-valmsg-for="IdDocumentName" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+        <div class="form-group ">
+            <div class="col-lg-12">
+                <input required class="form-control form-control-line iddocumentSelect" type="text" placeholder="Identification document number" id="IdDocumentNumber" name="IdDocumentNumber" value="">
+                <span class="mt-1 field-valid field-validation-valid" data-valmsg-for="IdDocumentNumber" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+    <div class="form-group ">
+        <div class="col-lg-12">
+            <input class="form-control form-control-line" id="password" type="password" placeholder="Password" required="required" data-val="true" data-val-length="The Create Password must be at least 12 and at max 20 characters long." data-val-length-max="20" data-val-length-min="12" data-val-required="The Create Password field is required." name="Password">
+            <span class="mt-1 field-valid field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+
+    <div class="form-group ">
+        <div class="col-lg-12">
+            <input class="form-control form-control-line" type="password" placeholder="Confirm Password" required="required" data-val="true" data-val-equalto="The password and confirmation password do not match." data-val-equalto-other="*.Password" id="ConfirmPassword" name="ConfirmPassword">
+            <span class="mt-1 field-valid field-validation-valid" data-valmsg-for="ConfirmPassword" data-valmsg-replace="true"></span>
+        </div>
+    </div>
+
+
+    <div class="form-group ">
+        <div class="col-lg-12 mt-4">
+            <button class="btn btn-success btn-block btn-rounded" type="submit">Sign Up</button>
+        </div>
+    </div>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8CDAy67nCthLtdW4kvview0FEmym0cI7iiIYV1T8nUzhvtbI9QqHAarCNJx0hwnI7thuGb_EIDFUUAPVE3bvk5kV21ZXNcFXsEWb8P7LHge8XMrofPZblGFAP48IBECnwgrjreWnrRjYxSigMdUFAIc" /><input name="IsKUCCPS" type="hidden" value="false"></form>
+<div style="text-align:center;">
+    <span>Already have an account?</span>
+</div>
+
+<div class="form-group">
+    <div class="col-sm-12 mt-4 text-center">
+        <a href="Login.html"><i class="fa fa-sign-in m-r-5"></i> I have an account</a>
+    </div>
+</div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
